@@ -1,0 +1,84 @@
+#Navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    overflow: hidden;
+    margin: -8px;
+}
+.Navel {
+    float: left;
+    text-align: center;
+}
+.Navel a {
+    color: rgb(0, 185, 0);
+    display: block;
+    text-decoration: none;
+    padding: 20px 24px;
+    font-size: 16px;
+}
+.Navel:hover {
+    background-color: red;
+}
+#searchInput {
+    float: right;
+    padding-top: 17px;
+    padding-right: 5px;
+}
+#searchInput input, button{
+    font-size: 16px;
+}
+.preview div {
+    text-align: center;
+    background-color: rgb(0, 185, 0);;
+    height: 300px;
+    width: 200px;
+    display:inline-block; 
+    margin-right: 5.77%;
+    text-align: center
+}
+.everything {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 200px;
+}
+.footer,
+.push {
+    height: 50px;
+}
+.footer {
+    background-color: white;
+    text-align: center;
+    font-size: 32px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+#trailer div {
+    text-align: center;
+    background-color: rgb(0, 185, 0);;
+    height: 300px;
+    width: 396.267px;
+    display:inline-block; 
+    margin-right: 4.6988%;
+    text-align: center
+}
+.information {
+    text-align: left;
+}
+.information img iframe{
+    float:left
+}
+.media a {
+    text-decoration: none;
+}
+.media img {
+    height: 110px;
+    width: 161.5px;
+}
+
+
+tr.border_bottom td {
+    border-bottom:1pt solid black;
+  }
