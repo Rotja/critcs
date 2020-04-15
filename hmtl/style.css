@@ -1,23 +1,33 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+.everything {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 200px;
+    background-color: lightgray;
+    padding: 0px 25px;
+}
 #Navbar {
     list-style-type: none;
-    margin: 0px;
+    margin: -8px -8px 0px -8px;
     padding: 0px;
-    background-color: black;
+    background-color: gray;
     overflow: hidden;
-    margin: -8px;
 }
-
 .Navel {
     float: left;
     text-align: center;
 }
-
 .Navel a {
-    color: rgb(0, 185, 0);
+    color: white;
     display: block;
     text-decoration: none;
     padding: 20px 24px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .Navel:hover {
@@ -45,13 +55,6 @@
     text-align: center;
     margin-bottom: 20px;
 }
-
-.everything {
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 200px;
-}
-
 .footer, .push {
     height: 50px;
 }
@@ -77,15 +80,14 @@
     margin-right: 4.6988%;
     text-align: center
 }
-
-.information {
-    text-align: left;
+.information::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
-.information img iframe {
-    float: left
+.column {
+    float: left;
 }
-
 .media a {
     text-decoration: none;
 }
