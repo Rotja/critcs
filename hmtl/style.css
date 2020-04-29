@@ -46,14 +46,13 @@ body {
 
 .preview div {
     text-align: center;
-    background-color: rgb(0, 185, 0);
-    ;
     height: 300px;
-    width: 200px;
+    width: 19%;
     display: inline-block;
-    margin-right: 5.77%;
+    margin-right:7px;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 .footer, .push {
     height: 50px;
@@ -75,9 +74,9 @@ body {
     background-color: rgb(0, 185, 0);
     ;
     height: 300px;
-    width: 396.267px;
+    width: 32%;
     display: inline-block;
-    margin-right: 4.6988%;
+    margin-right: 15px;
     text-align: center
 }
 .information::after {
