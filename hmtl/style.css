@@ -53,10 +53,9 @@ body {
     height: 300px;
     width: 19%;
     display: inline-block;
-    margin-right:7px;
+    margin-right: 7px;
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 .footer, .push {
@@ -104,6 +103,35 @@ body {
     width: 249px;
 }
 
+table {
+    table-layout: fixed;
+}
+
+td {
+    padding: 5px;
+}
+
+td p {
+    margin: 0;
+    padding: 0;
+}
+
+.act_pic {
+    width: 10%;
+}
+
+.act_name {
+    width: 47.5%;
+}
+
+.hyphen {
+    width: 5%;
+}
+
+.med_name {
+    width: 47.5%;
+}
+
 tr.border_bottom td {
     border-bottom: 1pt solid black;
 }
@@ -120,14 +148,15 @@ tr.border_bottom td {
     resize: vertical;
     max-width: 95%;
 }
+
 .tabbb {
     width: 33.33%;
     float: left;
 }
-@media screen and (max-width:1600px) {
+
+@media screen and (max-width:1800px) {
     .tabbb {
         width: 100%;
-        /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
