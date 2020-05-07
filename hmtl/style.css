@@ -134,7 +134,11 @@ td p {
 
 tr.border_bottom td {
     border-bottom: 1pt solid black;
-}
+} 
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
 
 .title {
     margin-top: 0px;
@@ -152,6 +156,7 @@ tr.border_bottom td {
 .tabbb {
     width: 33.33%;
     float: left;
+    border-collapse: collapse;
 }
 
 @media screen and (max-width:1800px) {
