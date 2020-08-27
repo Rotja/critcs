@@ -57,7 +57,9 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-
+.preview div:hover {
+    opacity: 0.5;
+}
 .footer, .push {
     height: 50px;
 }
@@ -83,7 +85,9 @@ body {
     margin-right: 15px;
     text-align: center
 }
-
+#trailer div:hover {
+    opacity: 0.5;
+}
 .media_overview::after {
     content: "";
     clear: both;
